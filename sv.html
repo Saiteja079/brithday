@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>song</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+  <div id="playButton1" class="qt">Maybe my efforts don't matter to you, but your every reaction means everything to me.
+  </div>
+  <button id="playButton" onclick="playAudioAndShowText()">Play Audio</button>
+  <audio id="myAudio" hidden>
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+
+  <section class="animation-box" id="lyrics" style="display: none;">
+    <div class="zero-text"> SO WHAT I SAY IS.....
+    </div>
+    <div class="first-text"> I pray day and night,</div>
+    <div class="sec-text"> that I live and die for you,</div>
+    <div class="thi-text"> All the time I wish to see you,</div>
+    <div class="for-text"> I wish to sacrifice my life for you..</div>
+    <div class="fiv-text"> Whenever there is a talk about you,</div>
+    <div class="six-text">See, your feeling remains lingering on my lips</div>
+    <div class="sev-text">Every path of mine should get the destination, </div>
+    <div class="eig-text">When I see your face...😍💕</div>
+   </section>
+  <script>
+    function playAudioAndShowText() {
+      var audio = document.getElementById("myAudio");
+      var lyrics = document.getElementById("lyrics");
+      var playButton = document.getElementById("playButton");
+      var qtText = document.getElementById("playButton1");
+      audio.play();
+      lyrics.style.display = "block"; 
+      playButton.style.display = "none";
+      qtText.style.display = "none"; 
+    }
+  </script>
+
+</body>
+
+</html>

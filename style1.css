@@ -1,0 +1,209 @@
+body {
+    font-style: Arial;
+    background-color: black;
+}
+
+button {
+    top: 50%;
+    left: 45%;
+    display: flex;
+    position: absolute;
+}
+
+#playButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+}
+
+.c {
+    background-color: #45a049;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+
+#playButton1 {
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    border: 3px solid rgb(56, 130, 210);
+    background-color: rgb(89, 202, 231);
+}
+
+#playButton:hover {
+    background-color: #45a049;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.animation-box {
+    width: 75%;
+    height: 30rem;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.qt {
+    color: aliceblue;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 4px 2px;
+    top: 30%;
+    left: 30%;
+    right: 25%;
+}
+
+.zero-text {
+    font-size: 4.0rem;
+    color: aliceblue;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    animation-name: sai1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    opacity: 0;
+}
+
+.first-text {
+    font-size: 4.0rem;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation-name: sai1;
+    animation-duration: 4.55s;
+    animation-delay: 5s;
+}
+
+.sec-text {
+    font-size: 3.0rem;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation-name: sai1;
+    animation-duration: 4.05s;
+    animation-delay: 9.55s;
+}
+
+.thi-text {
+    font-size: 4.0rem;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation-name: sai1;
+    animation-duration: 3.65s;
+    animation-delay: 13.6s;
+}
+
+.for-text {
+    font-size: 4.0rem;
+    color: rgb(242, 17, 17);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation-name: sai1;
+    animation-delay: 17.25s;
+    animation-duration: 4.55s;
+}
+
+.fiv-text {
+    font-size: 4.0rem;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: sai1;
+    animation-duration: 6.05s;
+    animation-delay: 21.80s;
+}
+
+.six-text {
+    font-size: 4.0rem;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation-name: sai1;
+    animation-duration: 9s;
+    animation-delay: 27.55s;
+}
+
+.sev-text {
+    font-size: 4.0rem;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation-name: sai1;
+    animation-duration: 9s;
+    animation-delay: 36s;
+}
+
+.eig-text {
+    font-size: 4.0rem;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation-name: sai1;
+    animation-duration: 8s;
+    animation-delay: 45s;
+}
+
+
+
+@keyframes sai1 {
+    0% {
+        top: -3rem;
+        opacity: 0;
+    }
+
+    75% {
+        top: 50%;
+        opacity: 1;
+    }
+
+    100% {
+        top: -3rem;
+        opacity: 0;
+    }
+}
