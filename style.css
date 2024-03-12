@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lobster&family=Pacifico&family=Poppins&display=swap');
+
 body {
     display: flex;
     align-items: center;
@@ -111,13 +113,12 @@ a {
     position: absolute;
     color: white;
     font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
+    font-weight:10px ;
     top: -45%;
     left: 35px;
     width: 50vw;
-}
-
+    font-family: Pacifico,Lobster,Lobsters;
+    }
 .text {
     text-align: center;
     font-size: 15px;
